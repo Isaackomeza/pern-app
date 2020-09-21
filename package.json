@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "pern-app",
   "main": "index.js",
+  "engines": {
+    "node": "14.8.0",
+    "npm": "6.14.4"
+  },
   "scripts": {
     "start": "node index.js",
     "heroku-postbuild": "cd client && npm install && npm run build"
